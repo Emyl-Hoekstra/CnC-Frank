@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirebaseSharp.Portable", "FirebaseSharp.Portable\FirebaseSharp.Portable.csproj", "{D8788F65-474D-4EC9-B475-9E7F7C5E7460}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CnCSDK", "CnC-SDK\CnCSDK.csproj", "{B92D33F9-219C-415C-8F06-27466910B798}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CnC-Player", "CnC-Player\CnC-Player.csproj", "{DE088B45-ED8D-4644-9F9C-62496B31A0DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CnC-GameMaster", "CnC-GameMaster\CnC-GameMaster.csproj", "{341CC911-2309-43C3-A3E6-34620EF103F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8788F65-474D-4EC9-B475-9E7F7C5E7460}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8788F65-474D-4EC9-B475-9E7F7C5E7460}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8788F65-474D-4EC9-B475-9E7F7C5E7460}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8788F65-474D-4EC9-B475-9E7F7C5E7460}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B92D33F9-219C-415C-8F06-27466910B798}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B92D33F9-219C-415C-8F06-27466910B798}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B92D33F9-219C-415C-8F06-27466910B798}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B92D33F9-219C-415C-8F06-27466910B798}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE088B45-ED8D-4644-9F9C-62496B31A0DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE088B45-ED8D-4644-9F9C-62496B31A0DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE088B45-ED8D-4644-9F9C-62496B31A0DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE088B45-ED8D-4644-9F9C-62496B31A0DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{341CC911-2309-43C3-A3E6-34620EF103F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{341CC911-2309-43C3-A3E6-34620EF103F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{341CC911-2309-43C3-A3E6-34620EF103F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{341CC911-2309-43C3-A3E6-34620EF103F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

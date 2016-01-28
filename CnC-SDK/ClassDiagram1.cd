@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CnC.Model.Game">
+    <Position X="1" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AgABAAAAABIAAAAAAACAAIQAAAAAAAAAAAARAAAAAgA=</HashCode>
+      <FileName>Model\Game.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Map" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="UnitsInGame" />
+      <Property Name="PlayersInGame" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CnC.Model.Map">
+    <Position X="4.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAgAAAAAAAAAAUAAAAAAAoAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Map.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="MapTiles" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CnC.Model.MapTile">
+    <Position X="8.25" Y="1" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAACQAAAAAAAAAAAAAAAAAAAAAAAAAAABAAgAA=</HashCode>
+      <FileName>Model\MapTile.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CnC.Model.Unit">
+    <Position X="4" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAQAEAQAAAAEoARJUAgYAAAAkAAAAUAAAACAAAJE=</HashCode>
+      <FileName>Model\Unit.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Heading" />
+      <Property Name="Status" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Weapons" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CnC.Model.Player">
+    <Position X="11.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAEAAAAAAQAAAAAAAEAAAAAAAABAAA=</HashCode>
+      <FileName>Model\Player.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CnC.Model.GamePlay.PlayerGame">
+    <Position X="7.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAEAAAAAAAAABAAAEABgAAAAAAA=</HashCode>
+      <FileName>Model\GamePlay\PlayerGame.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Spawn" />
+      <Property Name="Map" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CnC.Model.GamePlay.PlayerMapTile">
+    <Position X="9.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Model\GamePlay\PlayerMapTile.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CnC.Model.GamePlay.PlayerUnit">
+    <Position X="11" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\GamePlay\PlayerUnit.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CnC.Model.Weapon">
+    <Position X="10.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQBEAAAAAAAAAAIAAAQAAAIAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Weapon.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Status" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CnC.Model.GameCommand">
+    <Position X="12.75" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAIAAgAACBAAAAAAQAABAAAAEAAAAAAA=</HashCode>
+      <FileName>Model\GameCommand.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Command" />
+      <Property Name="CommandStatus" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Enum Name="CnC.Base.enObjectState">
+    <Position X="16.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAQAAAAAAAABAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Base\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CnC.Base.enCommand">
+    <Position X="15.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAABAAAAEAgAAAAAAAAAAFAAAQEEEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Base\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CnC.Base.enCommandStatus">
+    <Position X="16.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Base\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CnC.Base.enUnitStatus">
+    <Position X="1" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAIAIAAAAAAAAAAAAAAAAAgAAAAAAIAAAAIMA=</HashCode>
+      <FileName>Base\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CnC.Base.enWeaponStatus">
+    <Position X="13.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAABAMA=</HashCode>
+      <FileName>Base\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CnC.Base.enHeading">
+    <Position X="8" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCCABABAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAABAAQ=</HashCode>
+      <FileName>Base\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CnC.Base.enRotationDirection">
+    <Position X="16.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Base\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

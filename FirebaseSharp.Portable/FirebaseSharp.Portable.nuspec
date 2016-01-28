@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>FirebaseSharp</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>Robert Horvick</authors>
+    <owners>bubbafat</owners>
+    <licenseUrl>https://raw.githubusercontent.com/bubbafat/FirebaseSharp/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/bubbafat/FirebaseSharp</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/bubbafat/FirebaseSharp/master/img/logo.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A portable .NET client library for Firebase.io.  Should look and feel (somewhat) familar to the official Firebase API</description>
+    <releaseNotes>
+      * 2.0.0-beta - total rewrite using the official Firebase API as a guide
+      * 1.0.0.5 - Marking methods obsolete in preparation for the next version
+      * 1.0.0.4 - Event streaming no longer blocks when running in UI or web synch contexts
+      * 1.0.0.2 - Events fired
+      * 1.0.0.0 - Initial version
+    </releaseNotes>
+    <copyright>Copyright 2014-2015</copyright>
+    <tags>Firebase realtime API</tags>
+    <dependencies>
+      <dependency id="Microsoft.Net.Http" version="2.2.29" />
+      <dependency id="Newtonsoft.Json" version="7.0.1" />
+    </dependencies>
+  </metadata>
+</package>
